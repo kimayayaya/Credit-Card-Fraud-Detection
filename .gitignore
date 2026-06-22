@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+
+# Dataset files
+creditcard.csv
+
+# Generated outputs
+fraud_detection_outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
