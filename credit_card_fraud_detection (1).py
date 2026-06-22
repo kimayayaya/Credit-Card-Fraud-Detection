@@ -1,21 +1,10 @@
 """
-=============================================================================
-  CREDIT CARD FRAUD DETECTION — COMPLETE ML PIPELINE (OPTIMISED)
-  NMIMS STME | B.Tech AI & DS | Semester 4 | Machine Learning ICA
-=============================================================================
-  SPEED OPTIMISATIONS (no loss of academic rigour):
-  • RBF-SVM replaced with LinearSVC — same concept, ~100x faster on PCA data
-  • GridSearch grids trimmed to the most impactful hyperparameters only
-  • Random Forest uses proven defaults (no GridSearch) — still 100 trees
-  • CV_FOLDS=3 for GridSearch inner loop; final scoring uses 5-fold CV
-  • All 12 plots, all metrics fully preserved
-=============================================================================
+CREDIT CARD FRAUD DETECTION — COMPLETE ML PIPELINE (OPTIMISED)
 INSTRUCTIONS:
   1. Download creditcard.csv from Kaggle (ULB Credit Card Fraud dataset)
   2. Place it in the same folder as this script
   3. pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn
   4. python credit_card_fraud_detection.py
-=============================================================================
 """
 
 import os, warnings
